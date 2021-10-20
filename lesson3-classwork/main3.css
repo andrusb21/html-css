@@ -1,75 +1,95 @@
-
-.container {
-
-    background: antiquewhite;
-    padding: 10px;
-    width: 600px;
+.wrap {
+    background: beige;
+    width: 800px;
+    height: 500px;
     display: flex;
-    align-items: flex-start;
     justify-content: flex-start;
-    border-radius: 20px;
-    border: solid;
+    align-items: flex-start;
     flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 10px;
     box-sizing: border-box;
-
-}
-
-.box {
-
+    padding: 10px;
+    padding-bottom: 20px;
     border-radius: 20px;
+    border: 4px solid black;
 }
-
-.header {
-    display: flex;
-    height: 150px;
+.a {
     width: 100%;
-    background: blue;
+    height: 33%;
+    background: chartreuse;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.down {
+    width: 100%;
+    height: 66%;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
-
-.main {
+.left {
+    height: 100%;
+    width: 70%;
     display: flex;
-}
-
-
-.main_left {
-    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 10px;
+    box-sizing: border-box;
+
 }
-
-
-.main_left_header {
-    display: flex;
-    height: 150px;
-    width: 100%;
-    background: brown;
-    column-gap: 10px;
-    row-gap: 10px;
-}
-
-.main_left_content {
-    display: flex;
-    column-gap: 10px;
-    row-gap: 10px;
-}
-
 .b {
-    display: flex;
-    flex-grow: 1;
-    width: 150px;
-    height: 150px;
-    background: hotpink;
-}
-
-.main_right {
-    flex-wrap: wrap;
     width: 100%;
+    height: 50%;
+    background: darkred;
     display: flex;
-    background: black;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
 
+}
+.c {
+    width: 32%;
+    height: 47%;
+    background: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+.d {
+    width: 32%;
+    height: 47%;
+    background: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.e {
+    width: 32%;
+    height: 47%;
+    background: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.right {
+    height: 100%;
+    width: 30%;
+    background: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 10px;
 }
