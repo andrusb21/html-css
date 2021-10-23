@@ -74,7 +74,7 @@ body {
     color: var(--blue);
     font-weight: 900;
 }
-.nav__item a: hover {
+.nav__item a:hover {
     color: white;
 }
 .header__main {
