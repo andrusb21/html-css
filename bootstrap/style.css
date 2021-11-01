@@ -62,3 +62,6 @@ h2 {
     letter-spacing: 2.42px;
     color: #1652AC;
 }
+.right-background {
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
