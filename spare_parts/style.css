@@ -1,0 +1,267 @@
+.wrap {
+    width: 1400px;
+    margin: 0 auto;
+
+
+}
+.header {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+}
+.header__top {
+    margin: 0 auto;
+    background-color: #0F2438;
+    display: flex;
+    justify-content: space-evenly;
+
+
+
+}
+
+
+.header__top_left {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+.header__top_city {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    padding-right: 40px;
+}
+
+.nav__dropdown {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.navbar-nav a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.header__main {
+    margin: 0 auto;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 67px;
+
+}
+
+.header__logo {
+    display: flex;
+}
+
+.header__logo_text {
+    padding-left: 10px;
+}
+
+.header__logo h3 {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #0F2438;
+}
+
+.header__logo p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 4px;
+    color: #0F2438;
+    margin-bottom: 10px;
+
+}
+
+.header__opening_hours {
+    display: flex;
+}
+
+.header__opening_hours_text {
+    padding: 10px 0 0 10px;
+}
+
+.header__opening_hours_text p {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 0px;
+    text-align: right;
+    color: #0F2438;
+}
+
+.header__location {
+    display: flex;
+    text-align: center;
+}
+
+.header__location_logo {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+    color: #0F2438;
+
+}
+
+.header__contact_background {
+    background-color: #E1EFD0;
+    border-radius: 4px;
+}
+
+.header__contact_logo {
+
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    color: #000000;
+    padding: 5px 10px 5px 10px;
+
+}
+
+.header__contact_tel h3 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 23px;
+    color: #0F2438;
+    margin-bottom: 0px;
+}
+
+.header__contact_tel p {
+    font-weight: 500;
+    font-size: 5px;
+    line-height: 2px;
+    text-decoration-line: underline;
+    color: #0F2438;
+    opacity: 0.7;
+    margin-bottom: 0;
+    text-align: end;
+
+}
+.header__down {
+    margin: 0 auto;
+    padding: 0 0 15px 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__down_left {
+    display: flex;
+    column-gap: 30px;
+}
+.catalog {
+    height: 53px;
+    width: 165px;
+    background: #005BB9;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 15px;
+}
+.catalog h2 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 1px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.burger {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+
+}
+.burger div {
+    width: 30px;
+    height: 4px;
+    background: white;
+.btn {
+background-color: #2E75FF}
+}
+.search {
+    display: flex;
+}
+.search_bar {
+    display: flex;
+    align-items: center;
+    width: 480px;
+    height: 53px;
+    background: #F4F5FA;
+    border-radius: 6px 0px 0px 6px;
+}
+.search_bar h2 {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C2C5DA;
+}
+.search_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 101px;
+    height: 53px;
+    background: #005BB9;
+    border-radius: 0px 6px 6px 0px;
+}
+.search_item h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.items {
+    display: flex;
+    margin-left: 20px;
+    column-gap: 40px;
+}
+.user {
+
+
+}
+.user {
+    display: flex;
+    text-align: center;
+}
+.user_text {
+    padding: 10px 0 0 8px;
+}
+.favorites {
+    display: flex;
+
+}
+.basket {
+    display: flex;
+    text-align: center;
+}
+.user h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #0F2438;
+}
+.basket h2 {
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 4px;
+    text-align: center;
+}
+.favorites h2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+}
