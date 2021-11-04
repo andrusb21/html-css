@@ -47,7 +47,10 @@
     line-height: 16px;
     color: #FFFFFF;
 }
-
+.wrapper {
+    margin-left: 145px;
+    margin-right: 170px;
+}
 .header__main {
     margin: 0 auto;
     display: flex;
@@ -55,7 +58,7 @@
     padding-bottom: 20px;
     justify-content: center;
     align-items: center;
-    column-gap: 67px;
+    column-gap: 58px;
 
 }
 
@@ -151,7 +154,7 @@
     padding: 0 0 15px 5px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .header__down_left {
     display: flex;
@@ -196,7 +199,7 @@ background-color: #2E75FF}
 .search_bar {
     display: flex;
     align-items: center;
-    width: 480px;
+    width: 395px;
     height: 53px;
     background: #F4F5FA;
     border-radius: 6px 0px 0px 6px;
@@ -224,7 +227,7 @@ background-color: #2E75FF}
 }
 .items {
     display: flex;
-    margin-left: 20px;
+    margin-left: 36px;
     column-gap: 40px;
 }
 .user {
