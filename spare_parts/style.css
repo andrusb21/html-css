@@ -4,15 +4,16 @@
 
 
 }
+
 .header {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
 }
+
 .header__top {
     margin: 0 auto;
     background-color: #0F2438;
     display: flex;
     justify-content: space-evenly;
-
 
 
 }
@@ -22,8 +23,6 @@
     display: flex;
     align-items: center;
 }
-
-
 
 
 .header__top_city {
@@ -47,10 +46,12 @@
     line-height: 16px;
     color: #FFFFFF;
 }
+
 .wrapper {
     margin-left: 145px;
     margin-right: 170px;
 }
+
 .header__main {
     margin: 0 auto;
     display: flex;
@@ -86,9 +87,6 @@
 
 }
 
-.header__opening_hours {
-    display: flex;
-}
 
 .header__opening_hours_text {
     padding: 10px 0 0 10px;
@@ -149,6 +147,7 @@
     text-align: end;
 
 }
+
 .header__down {
     margin: 0 auto;
     padding: 0 0 15px 5px;
@@ -156,10 +155,12 @@
     align-items: center;
     justify-content: flex-start;
 }
+
 .header__down_left {
     display: flex;
     column-gap: 30px;
 }
+
 .catalog {
     height: 53px;
     width: 165px;
@@ -170,6 +171,7 @@
     justify-content: center;
     column-gap: 15px;
 }
+
 .catalog h2 {
     font-weight: bold;
     font-size: 18px;
@@ -180,22 +182,25 @@
 
     color: #FFFFFF;
 }
+
 .burger {
     display: flex;
     flex-direction: column;
     row-gap: 5px;
 
 }
+
 .burger div {
     width: 30px;
     height: 4px;
     background: white;
+
 .btn {
-background-color: #2E75FF}
+    background-color: #2E75FF
 }
-.search {
-    display: flex;
+
 }
+
 .search_bar {
     display: flex;
     align-items: center;
@@ -204,12 +209,14 @@ background-color: #2E75FF}
     background: #F4F5FA;
     border-radius: 6px 0px 0px 6px;
 }
+
 .search_bar h2 {
     font-weight: normal;
     font-size: 14px;
     line-height: 16px;
     color: #C2C5DA;
 }
+
 .search_item {
     display: flex;
     align-items: center;
@@ -219,52 +226,63 @@ background-color: #2E75FF}
     background: #005BB9;
     border-radius: 0px 6px 6px 0px;
 }
+
 .search_item h2 {
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
 }
+
 .items {
     display: flex;
-    margin-left: 36px;
-    column-gap: 40px;
+    margin-left: 18px;
+    column-gap: 20px;
 }
-.user {
 
-
-}
-.user {
+.user, .favorites, .basket, .search, .header__opening_hours {
     display: flex;
-    text-align: center;
 }
+
+.user, .favorites {
+    align-items: center;
+    text-align: center;
+    height: 27px;
+    padding-right: 30px;
+    border-right: 1px solid #E1E5F8;
+}
+
+}
+
 .user_text {
-    padding: 10px 0 0 8px;
+    padding-left: 10px;
 }
-.favorites {
-    display: flex;
 
-}
 .basket {
-    display: flex;
-    text-align: center;
+
+    align-items: center;
 }
+
 .user h2 {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
     color: #0F2438;
+    margin-bottom: 1px;
 }
+
 .basket h2 {
     font-weight: 500;
     font-size: 10px;
     line-height: 4px;
     text-align: center;
 }
+
 .favorites h2 {
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     text-align: center;
+    padding-left: 10px;
 }
