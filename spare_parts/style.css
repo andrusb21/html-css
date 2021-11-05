@@ -552,6 +552,7 @@ hr {
 }
 
 .parts_reviews {
+    display: flex;
     column-gap: 10px;
 
 }
@@ -595,6 +596,7 @@ hr {
 }
 
 .parts_basket {
+    display: flex;
     column-gap: 10px;
     align-items: center;
 }
